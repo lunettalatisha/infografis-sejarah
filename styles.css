@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(bgbody.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    padding: 20px;
+    text-align: center;
+    margin-right: 20%;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 100px auto;
+}
+.container {
+    padding: 10px 50px;
+    position: relative;
+    width: 40%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.text-box {
+    
+    padding: 20px 30px;
+    background: #fff;
+    position: relative;
+    border-radius: 6px;
+    font-size: 15px;
+}
+.text-box {
+    background: #fff;
+    position: relative;
+    border-radius: 6px;
+    font-size: 15px;
+    margin-left: -20%;
+    height: 5%;
+}
+
+h1 {
+    margin-left: 40%;
+    margin-right: 30%;  
+    margin-top: 6%;
+    margin-bottom: 2%   ;
+    color: #ffffff;
+    font-family: "Dancing Script", cursive;
+    font-size: 275%;
+}
+.left-container {
+    left: -1%;
+}
+.right-container {
+    left: 66%;
+}
+.container .r {
+    position: absolute;
+    width: 45%;
+    border-radius: 50%;
+    right: -20px;
+    top: 32px;
+    z-index: 10;
+}
+.right-container .r{
+    left: -63%
+
+}
+.left-container .r{
+    right: -50%;
+}
+.timeline::after{
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 79%;
+    background: #fff;
+    top: 40px;;
+    left: 50%;
+    margin-left: -3px;
+    z-index: -1;
+}
